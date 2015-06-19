@@ -61,7 +61,8 @@ donut-data='[
     {label: "In-Store Sales",value: 30},
     {label: "Mail-Order Sales", value: 20}
 ]'
-donut-colors='["#31C0BE","#c7254e","#98a0d3"]'>
+donut-colors='["#31C0BE","#c7254e","#98a0d3"]'
+donut-formatter='"currency"'>
 </div>
 ```
 
@@ -72,8 +73,11 @@ donut-data='[
     {label: "In-Store Sales",value: 30},
     {label: "Mail-Order Sales", value: 20}
 ]'
-donut-colors='["#31C0BE","#c7254e","#98a0d3"]'>
+donut-colors='["#31C0BE","#c7254e","#98a0d3"]'
+donut-formatter='"currency"'>
 </div>
+
+<p class="text-center">`donut-formatter` can either be a string for a filter name (eg. 'currency') or a reference to a scope function. [example in plunker](http://plnkr.co/edit/AsxnDG?p=preview)</p>
 
 
 ## Line Chart
