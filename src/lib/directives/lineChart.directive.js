@@ -36,7 +36,7 @@
                 'xLabels', 'xLabelFormat', 'xLabelAngle', 'yLabelFormat', 'goals', 'goalStrokeWidth',
                 'goalLineColors', 'events', 'eventStrokeWidth', 'eventLineColors', 'continuousLine',
                 'axes', 'grid', 'gridTextColor', 'gridTextSize', 'gridTextFamily', 'gridTextWeight',
-                'fillOpacity', 'resize'
+                'fillOpacity', 'resize', 'gridLineColor', 'gridStrokeWidth'
             ];
 
             return {
